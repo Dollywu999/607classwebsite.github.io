@@ -728,8 +728,8 @@ function setupImageUpload() {
             const days = Math.floor(distance / (1000 * 60 * 60 * 24));
             document.getElementById('days').textContent = days;
         }
-};
-
+        const firebaseConfig = {
+ 
 const app = firebase.initializeApp(firebaseConfig);
 // 獲取 Firestore 實例
 const db = firebase.firestore();
